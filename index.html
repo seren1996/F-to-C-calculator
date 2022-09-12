@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="coding.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Temperature Converter</h2>
+        <p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+        <label>Enter Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" oninput="FahrenHeitToC(this.value)" onchange="FahrenHeitToC(this.value)">
+        <p>Celsius: <span id="outputCelcius"></span></p>
+
+        <p>Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+
+        <label>Enter Celsius</label>
+        <input id="inputCelcius" type="number" oninput="CToFahrenHeit(this.value)" onchange="CToFahrenHeit(this.value)">
+        <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+    </div>
+</body>
+</html>

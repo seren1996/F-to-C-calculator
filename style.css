@@ -1,0 +1,14 @@
+.calculator {
+    background-color: aqua;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+span {
+    color: blueviolet
+}
